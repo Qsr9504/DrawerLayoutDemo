@@ -111,4 +111,8 @@ Google控件DrawerLayout的基本使用
 * drawerLayout.openDrawer(Gravity.RIGHT);//传入RIGHT意为右侧抽屉弹出
 * drawerLayout.closeDrawer(Gravity.LEFT);//传入Left意为左侧抽屉关闭
 * drawerLayout.closeDrawer(Gravity.RIGHT);//传入RIGHT意为右侧抽屉关闭
+ 
+
+##如果要给抽屉中控件设置监听事件
+    需要在抽屉的布局中添加clickable=true，用来消耗点击事件
     
