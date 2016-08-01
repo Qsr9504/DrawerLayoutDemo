@@ -15,9 +15,11 @@ Google控件DrawerLayout的基本使用
   * android:layout_gravity="end" 从右拉出现抽屉式菜单
 * 主界面中什么都不需要做，抽屉侧滑效果就已经出来了。
 
+
 ###xml示例代码如下：
     <?xml version="1.0" encoding="utf-8"?>
     <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -69,3 +71,14 @@ Google控件DrawerLayout的基本使用
                 />
         </LinearLayout>
     </android.support.v4.widget.DrawerLayout>
+
+##给抽屉添加展开收回事件监听
+* 需要用到ActionBarFrawerToggle类，它是DrawerLayout.DrawerListener的具体实现类
+    * 改变android.R.id.home图标（构造方法）
+    * Drawer拉出、隐藏,带有android.R.id.home动画效果(SyncState())
+    * 监听Drawer拉出、隐藏事件
+* 覆写ActionBarDrawerToggle的onDrawerOpened()和onDrawerClosed()以监听抽屉拉出或隐藏事件
+* 覆写Acticity的onPostCreat()和onConfigurationChanged()方法
+
+
+    
