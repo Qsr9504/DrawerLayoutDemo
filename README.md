@@ -3,7 +3,7 @@ Google控件DrawerLayout的基本使用
 
 ##第一步导入相关包android.support.v4.widget.DrawerLayout
     
-    它相当于是一个布局文件，需要将其作为根布局使用
+    它相当于是一个布局，需要将其作为根布局使用
 
 ##xml布局文件中控件数量和位置十分重要
 
