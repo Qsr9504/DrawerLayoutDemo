@@ -13,7 +13,7 @@ Google控件DrawerLayout的基本使用
 * 第二个View控件属性中需要有以下其中一个属性
   * android:layout_gravity="start" 从左拉出现抽屉式菜单
   * android:layout_gravity="end" 从右拉出现抽屉式菜单
-* 主界面中什么都不需要做。
+* 主界面中什么都不需要做，抽屉侧滑效果就已经出来了。
 
 ###xml示例代码如下：
     <?xml version="1.0" encoding="utf-8"?>
