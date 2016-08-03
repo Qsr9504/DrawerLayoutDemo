@@ -1,3 +1,6 @@
+效果图如下：
+DrawerLayoutDemo/抽屉.gif
+
 # DrawerLayoutDemo侧滑菜单
 Google控件DrawerLayout的基本使用
 
