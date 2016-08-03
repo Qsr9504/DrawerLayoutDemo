@@ -1,5 +1,5 @@
 效果图如下：
-https://github.com/Qsr9504/DrawerLayoutDemo/blob/master/抽屉.gif
+![image]（https://github.com/Qsr9504/DrawerLayoutDemo/blob/master/抽屉.gif）
 
 # DrawerLayoutDemo侧滑菜单
 Google控件DrawerLayout的基本使用
