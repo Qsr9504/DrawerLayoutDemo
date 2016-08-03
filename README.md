@@ -1,5 +1,6 @@
 效果图如下：
-![image]（https://github.com/Qsr9504/DrawerLayoutDemo/blob/master/DrawerLayoutDemo.gif）
+
+ ![image]（https://github.com/Qsr9504/DrawerLayoutDemo/blob/master/DrawerLayoutDemo.gif）
 
 # DrawerLayoutDemo侧滑菜单
 Google控件DrawerLayout的基本使用
