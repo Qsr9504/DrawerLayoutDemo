@@ -21,7 +21,8 @@ Google控件DrawerLayout的基本使用
 
 
 ###xml示例代码如下：
-    <?xml version="1.0" encoding="utf-8"?>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
     <android.support.v4.widget.DrawerLayout
         android:id="@+id/drawerLayout"
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -75,7 +76,7 @@ Google控件DrawerLayout的基本使用
                 />
         </LinearLayout>
     </android.support.v4.widget.DrawerLayout>
-
+```
 ##给抽屉添加展开收回事件监听（想让其有一个顶部系统默认titleBar，并对其操作）
 * 需要用到ActionBarFrawerToggle类，它是DrawerLayout.DrawerListener的具体实现类
     * 改变android.R.id.home图标（构造方法）
@@ -85,7 +86,7 @@ Google控件DrawerLayout的基本使用
 * 覆写Acticity的onPostCreat()和onConfigurationChanged()方法
 
 ##最简单的监听
-
+```java
     drawerLayout.addDrawerListener(new DrawerLayout.DrawerListener() {
             @Override
             public void onDrawerSlide(View drawerView, float slideOffset) {
@@ -110,7 +111,7 @@ Google控件DrawerLayout的基本使用
                 Toast.makeText(MainActivity.this,"抽屉状态改变了",Toast.LENGTH_SHORT).show();
             }
         });
-
+```
 * drawerLayout.openDrawer(Gravity.LEFT);//传入Left意为左侧抽屉弹出
 * drawerLayout.openDrawer(Gravity.RIGHT);//传入RIGHT意为右侧抽屉弹出
 * drawerLayout.closeDrawer(Gravity.LEFT);//传入Left意为左侧抽屉关闭
